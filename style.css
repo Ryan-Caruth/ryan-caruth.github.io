@@ -1,38 +1,26 @@
-.container {
-    display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.compass {
-  width: 200px;
+ .compass {
+  max-width: 100%;
   height: 200px;
+}
+
+.body {
   position: relative;
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 
-#outer-ring {
-  width: 100%;
-  height: 100%;
-  border: 1px solid black;
-  border-radius: 50%;
-}
-
-#inner-ring {
-  width: 80%;
-  height: 80%;
+.pointer {
   position: absolute;
-  top: 10%;
-  left: 10%;
-  border: 1px solid black;
-  border-radius: 50%;
+  top: 9px;
+  left: 503px;
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 
-#needle {
-  width: 3px;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform-origin: top center;
-  background-color: red;
-}
+
