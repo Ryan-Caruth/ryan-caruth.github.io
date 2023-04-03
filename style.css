@@ -1,3 +1,9 @@
+ .container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
  .compass {
   max-width: 100%;
   height: 200px;
@@ -14,13 +20,11 @@
 
 .pointer {
   position: absolute;
-  top: 9px;
-  left: 503px;
-  display: block;
-  object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  max-height: 100%;
 }
 
 
