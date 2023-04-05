@@ -34,3 +34,9 @@
   transform: translateX(-50%);
 }
 
+.cap {
+  position: absolute;
+  bottom: -30.5%;
+  right: 30.5%;
+}
+
