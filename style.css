@@ -40,3 +40,24 @@
   right: 30.5%;
 }
 
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+}
+
+.social-icons {
+  display: flex;
+  width: 200px;
+  padding: 0;
+}
