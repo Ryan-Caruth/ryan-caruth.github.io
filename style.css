@@ -1,3 +1,8 @@
+h1, h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -52,12 +57,20 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 500px;
-  margin: auto;
+  margin: 0;
   padding: 30px;
 }
 
-.social-icons {
+#social-icons {
   display: flex;
+  justify-content: space-between;
   width: 200px;
   padding: 0;
+}
+
+#sections {
+  display:flex;
+  justify-content: space-between;
+  width: 50vw;
+  text-align: right;
 }
